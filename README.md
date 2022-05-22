@@ -2,7 +2,7 @@
 
 # TerminalMuseum
 
-Add a unique Museum-like experience to your Terminal with TerminalMuseum!
+Add a unique Museum-like experience to your Terminal!
 
 TerminalMuseum is a Python library that displays a random piece of classical art onto your Terminal.
 
