@@ -1,3 +1,5 @@
+![screenshot](screenshot.png)
+
 # TerminalMuseum
 
 Add a unique Museum-like experience to your Terminal with TerminalMuseum!
