@@ -5,6 +5,7 @@ import pathlib
 
 curr_path = str(pathlib.Path(__file__).parent.absolute()) + "/"
 
+
 def get_object_list():
     path = curr_path + 'data/objects.json'
     f = open(path)
