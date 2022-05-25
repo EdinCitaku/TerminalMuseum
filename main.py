@@ -3,8 +3,10 @@ import os
 import json
 import pathlib
 
-curr_path = str(pathlib.Path(__file__).parent.absolute()) + "/"
+from sys import platform
 
+
+curr_path = str(pathlib.Path(__file__).parent.absolute()) + "/"
 
 def get_object_list():
     path = curr_path + 'data/objects.json'
@@ -13,6 +15,14 @@ def get_object_list():
     f.close()
     return data
 
+
+def output(image_path):
+    if platform == "darwin":
+        os.system('imgcat ' + image_path)
+    elif platform == "linux" or platform == "linux2":
+        os.system('kitty +kitten icat ' + image_path)
+    else:
+        raise RuntimeError("Unsupported platform")
 
 object_list = get_object_list()
 ids = object_list['objects']
@@ -26,4 +36,4 @@ date = obj['objectDate']
 
 print(title + ", " + artist + ", " + date)
 print("\n")
-os.system('kitty +kitten icat ' + image_path)
+output(image_path)
