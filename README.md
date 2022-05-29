@@ -26,6 +26,12 @@ Add the following line to ur `.bashrc` depending on ur terminal emulator:
 terminalmuseum --command "kitty +kitten icat" --print_title
 ```
 
+#### imgcat
+
+```bash
+terminalmuseum --command "imgcat" --print_title
+```
+
 ## Art
 The Art used in this project is in the public domain and was filtered and downloaded via the [openaccess](https://github.com/metmuseum/openaccess) project of the Metropolitan Museum of Art.
 
