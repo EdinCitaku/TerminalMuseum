@@ -4,7 +4,7 @@
 
 Add a unique museum-like experience to your terminal!
 
-TerminalMuseum is a CLI tool that displays a random piece of classical art on your terminal.
+TerminalMuseum is a CLI tool that displays a new piece of classical art on your terminal every time u run it.
 
 
 ## Installation
