@@ -20,7 +20,7 @@ The command to display images varies between terminal emulators, and many can no
 
 #### Kitty 
 
-If you use kitty, you don't need to install any additional tools. Just add these lines to your `.bashrc`:
+If you use [Kitty](https://github.com/kovidgoyal/kitty), you don't need to install any additional tools. Just add these lines to your `.bashrc`:
 
 ```bash
 terminalmuseum --command "kitty +kitten icat" --print_title
