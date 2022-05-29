@@ -4,7 +4,7 @@
 
 Add a unique Museum-like experience to your Terminal!
 
-TerminalMuseum is a Python library that displays a random piece of classical art onto your Terminal.
+TerminalMuseum is a CLI tool that displays a random piece of classical art onto your Terminal.
 
 
 ## Installation
@@ -16,10 +16,14 @@ pip install terminalmuseum
 ```
 
 ## Usage
-Add this line to your `.bashrc`:
+The command to display images varies between terminal emulators, and many can not display images at all.
+
+Add the following line to ur `.bashrc` depending on ur terminal emulator:
+
+#### Kitty 
 
 ```bash
-terminalmuseum --command "kitty +kitten icat" --show-title
+terminalmuseum --command "kitty +kitten icat" --print_title
 ```
 Change the command flag depending on your terminal's specific command for displaying images.
 
