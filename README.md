@@ -25,7 +25,6 @@ Add the following line to ur `.bashrc` depending on ur terminal emulator:
 ```bash
 terminalmuseum --command "kitty +kitten icat" --print_title
 ```
-Change the command flag depending on your terminal's specific command for displaying images.
 
 ## Art
 The Art used in this project is in the public domain and was sorted and downloaded via the [openaccess](https://github.com/metmuseum/openaccess) project of the Metropolitan Museum of Art.
