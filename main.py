@@ -2,6 +2,7 @@ import random
 import os
 import json
 import pathlib
+import argparse
 
 curr_path = str(pathlib.Path(__file__).parent.absolute()) + "/"
 
@@ -24,6 +25,16 @@ title = obj['title']
 artist = obj['artistDisplayName']
 date = obj['objectDate']
 
-print(title + ", " + artist + ", " + date)
-print("\n")
-os.system('kitty +kitten icat ' + image_path)
+parser = argparse.ArgumentParser(description='A CLI that displays a random painting on the terminal')
+parser.add_argument("-t","--print_title", help="Prints title and additional information about the painting above.", action="store_true")
+
+parser.add_argument("--command", help="Executes the supplied command with the path to the image: [COMMAND] /path/to/painting.png", required=True)
+
+args = parser.parse_args()
+
+if(args.print_title):
+    print(title + ", " + artist + ", " + date)
+    print("\n")
+
+
+os.system( args.command+" "+ image_path)
