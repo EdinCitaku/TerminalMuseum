@@ -18,9 +18,9 @@ pip install terminalmuseum
 ## Usage
 The command to display images varies between terminal emulators, and many can not display images at all.
 
-Add the following line to ur `.bashrc` depending on ur terminal emulator:
-
 #### Kitty 
+
+If you use kitty, you don't need to install any additional tools. Just add these lines to your `.bashrc`:
 
 ```bash
 terminalmuseum --command "kitty +kitten icat" --print_title
