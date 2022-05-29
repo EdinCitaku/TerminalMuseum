@@ -16,21 +16,21 @@ pip install terminalmuseum
 ```
 
 ## Usage
-The command to display images varies between terminal emulators, and many can not display images at all.
+The command to display images varies between terminal emulators, and many can not display images at all. I personally recommend using Kitty with TerminalMuseum, as images are displayed in native resolution and loaded very quickly.
 
 #### Kitty 
 
-If you use [Kitty](https://github.com/kovidgoyal/kitty), you don't need to install any additional tools. Just add these lines to your `.bashrc`:
+If you use Kitty, you don't need to install any additional tools. Just add these lines to your `.bashrc`:
 
 ```bash
 terminalmuseum --command "kitty +kitten icat" --print_title
 ```
 
 #### imgcat
-Many terminal emulators don't natively support displaying images. In these cases you can use tools like [viu](https://github.com/atanunq/viu). After installation add these lines to your `.bashrc`:
+Many terminal emulators don't natively support displaying images. In these cases you can use tools like [imgcat](https://github.com/eddieantonio/imgcat). After installation add these lines to your `.bashrc`:
 
 ```bash
-terminalmuseum --command "viu" --print_title
+terminalmuseum --command "imgcat" --print_title
 ```
 
 ## Art
