@@ -16,11 +16,11 @@ pip install terminalmuseum
 ```
 
 ## Usage
-The command to display images varies between terminal emulators, and many can not display images at all. I personally recommend using Kitty with TerminalMuseum, as images are displayed in native resolution and loaded very quickly.
+The command to display images varies between terminal emulators, and many can not display images at all. I personally recommend using [kitty](https://sw.kovidgoyal.net/kitty/) with TerminalMuseum, as images are displayed in native resolution and loaded very quickly.
 
-#### Kitty 
+#### kitty 
 
-If you use Kitty, you don't need to install any additional tools. Just add these lines to your `.bashrc`:
+If you use kitty, you don't need to install any additional tools. Just add these lines to your `.bashrc`:
 
 ```bash
 terminalmuseum --command "kitty +kitten icat" --print_title
