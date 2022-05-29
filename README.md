@@ -27,7 +27,7 @@ terminalmuseum --command "kitty +kitten icat" --print_title
 ```
 
 ## Art
-The Art used in this project is in the public domain and was sorted and downloaded via the [openaccess](https://github.com/metmuseum/openaccess) project of the Metropolitan Museum of Art.
+The Art used in this project is in the public domain and was filtered and downloaded via the [openaccess](https://github.com/metmuseum/openaccess) project of the Metropolitan Museum of Art.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
