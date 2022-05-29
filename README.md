@@ -27,10 +27,10 @@ terminalmuseum --command "kitty +kitten icat" --print_title
 ```
 
 #### imgcat
-Many terminal emulators don't natively support displaying images. In these cases you can use tools like [imgcat](https://github.com/eddieantonio/imgcat). After installation add these lines to your `.bashrc`:
+Many terminal emulators don't natively support displaying images. In these cases you can use tools like [viu](https://github.com/atanunq/viu). After installation add these lines to your `.bashrc`:
 
 ```bash
-terminalmuseum --command "imgcat" --print_title
+terminalmuseum --command "viu" --print_title
 ```
 
 ## Art
